@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "947225892998",
+    "firebase_url": "https://stego-f7804-default-rtdb.firebaseio.com",
+    "project_id": "stego-f7804",
+    "storage_bucket": "stego-f7804.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:947225892998:android:0e8407eccfedac3b7d5907",
+        "android_client_info": {
+          "package_name": "com.application.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "947225892998-t6efvlt5spj3qdfbga2k508ivrr0h8mn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.application.app",
+            "certificate_hash": "ec2e4fbd78964e853725f8b44474ddf35ade1e94"
+          }
+        },
+        {
+          "client_id": "947225892998-3pbog6j1scd9nfa14n0op0a7ppc51de9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALjJY33hcKA4em1ZupqyKAR5U99VRJa9U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "947225892998-3pbog6j1scd9nfa14n0op0a7ppc51de9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
