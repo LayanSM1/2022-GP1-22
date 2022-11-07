@@ -1,94 +1,48 @@
 
-# application1
+# 2022-GP1-22
 
 <div>
-  <h1 align="center">Getting Started with Flutter 🚀 </h1>
+  <h1 align="center">STEGO</h1>
   <strong>
-    Generated with ❤️ from DhiWise
+    Introduction
   </strong>
   <p>
-    This is the documentation of Flutter Applications.
-    It contains all the information you need to get started with
-    and make changes to your App
+    Stego is an image steganography application: it hides a message in image files. You can encode a secret message inside an image and share it with your friends within our application with a shared secret key using asymmetric key cryptography. also, you can receive an image from your friends and extract the secret message from it using the shared secret key.
+
   </p>
 </div>
 
 
-### Table of Contents
-- [System Requirements](#system-requirements)
-- [Figma design guidelines for better accuracy](#figma-design-guideline-for-better-accuracy)
-- [App Navigations](#app-navigations)
-- [Project Structure](#project-structure)
-- [How you can do code formatting?](#how-you-can-do-code-formatting)
-- [How you can improve the readability of code?](#how-you-can-improve-the-readability-of-code)
-- [Libraries and tools used](#libraries-and-tools-used)
-- [Support](#support)
+### Technology:
+- Android Studio
+- Flutter
+- Dart
+- Firebase
+- Figma
 
-### System Requirements
 
-Dart SDK Version 2.17.0 or greater.
-Flutter SDK Version 3.0.0 or greater.
+### Lunch instructions:
 
-### Figma design guidelines for better accuracy
+• Downloading the APK from Github:
+- 1. Open the Settings app on your Android device.
+- 2. In the Settings menu, tap Apps.
+- 3. Tap Special app access (or Advanced > Special app access).
+- 4. Tap Install unknown apps.
+- 5. Select an app to use to install an APK file—your browser and file management apps are the best
+option here.
+- 6. Tap the Allow from this source slider to allow APK files to be installed via that app.
+### ----------------
+• Run on android studio emulator:
+- 1- Clone this repo 
+- 2- Run flutter pub get 
+- 3- Run flutter run
+### ----------------
+-Chose the device:
+- 1-Go to device manger 
+- 2-Create device 
+- 3-From category select phone, select pixel 5 
+- 4- click next
+- 5- From release name select R to download. 
+- 6-After finish downloading click next. 
+- 7- Click finish.
 
-Read our guidelines to increase the accuracy of design conversion to code by optimizing Figma designs.
-https://docs.dhiwise.com/docs/Designguidelines/intro
-
-### App Navigations
-
-Check your app's UI from the AppNavigation screen of your app.
-
-### Project Structure
-
-After successful build, your application structure should look like this:
-
-```
-.
-├── android                         - contains files and folders required for running the application on an Android operating system.
-├── assets                          - contains all images and fonts of your application.
-├── ios                             - contains files required by the application to run the dart code on iOS platforms.
-├── lib                             - Most important folder in the project, used to write most of the Dart code.
-    ├── main.dart                   - starting point of the application
-    ├── core
-    │   ├── app_export.dart         - contains commonly used file imports 
-    │   ├── constants               - contains all constants classes
-    │   ├── errors                  - contains error handling classes                  
-    │   ├── network                 - contains network related classes
-    │   └── utils                   - contains common files and utilities of project
-    ├── data
-    │   ├── apiClient               - contains API calling methods 
-    │   ├── models                  - contains request/response models 
-    │   └── repository              - network repository
-    ├── localization                - contains localization classes
-    ├── presentation                - contains all screens and screen controllers
-    │   └── screens                 - contains all screens
-    ├── routes                      - contains all the routes of application
-    └── theme                       - contains app theme and decoration classes
-    └── widgets                     - contains all custom widget classes
-```
-
-### How you can do code formatting?
-
-- if your code is not formatted then run following command in your terminal to format code
-  ```
-  dart format .
-  ```
-
-### How you can improve the readability of code?
-
-Resolve the errors and warnings that are shown in the application.
-
-### Libraries and tools used
-
-- get - State management
-  https://pub.dev/packages/get
-- connectivity_plus - For status of network connectivity
-  https://pub.dev/packages/connectivity_plus
-- shared_preferences - Provide persistent storage for simple data
-  https://pub.dev/packages/shared_preferences
-- cached_network_image - For storing internet image into cache
-  https://pub.dev/packages/cached_network_image
-    
-### Support
-
-If you have problems or questions go to our Discord channel, we will then try to help you as quickly as possible: https://discord.com/invite/rFMnCG5MZ7
