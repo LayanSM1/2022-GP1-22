@@ -1,0 +1,81 @@
+name: application1
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  get: ^4.6.5
+  connectivity_plus: ^3.0.2
+  shared_preferences: ^2.0.16
+  cached_network_image: ^3.2.3
+  flutter_svg: ^1.1.6
+  smooth_page_indicator: ^1.0.0+2
+  intl: ^0.18.0
+  cloud_firestore: ^4.3.1
+  firebase_auth: ^4.2.2
+  crypton: ^2.1.0
+  equatable: ^2.0.5
+  crypt: ^4.2.1
+  flutter_pw_validator: ^1.5.0
+  random_string_generator: ^2.0.0
+  flutter_secure_storage: ^7.0.1
+  awesome_snackbar_content: ^0.1.0
+  fluttertoast: ^8.1.2
+  firebase_phone_auth_handler: ^1.0.7
+  pin_code_fields: ^7.4.0
+  file_picker: ^5.2.5
+  uuid: ^3.0.7
+  firebase_storage: ^11.0.10
+  flutter_aes_ecb_pkcs5: ^0.1.2
+  path_provider: ^2.0.11
+  cloudinary_sdk: ^4.0.2+10
+  steganograph: ^1.0.0
+  camera: ^0.10.0+1
+  encrypt: ^5.0.1
+
+
+
+
+
+
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/fonts/
+    - assets/images/
+  fonts: 
+    - family: Rubik
+      fonts: 
+        - asset: assets/fonts/RubikMedium.ttf
+          weight: 500
+        - asset: assets/fonts/RubikLight.ttf
+          weight: 300
+        - asset: assets/fonts/RubikRegular.ttf
+          weight: 400
+        - asset: assets/fonts/RubikRomanBold.ttf
+          weight: 700
+        - asset: assets/fonts/RubikRomanRegular.ttf
+          weight: 400
+        - asset: assets/fonts/RubikRomanSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/RubikRomanMedium.ttf
+          weight: 500
+    - family: Roboto
+      fonts: 
+        - asset: assets/fonts/RobotoMedium.ttf
+          weight: 500
+    - family: Quicksand
+      fonts: 
+        - asset: assets/fonts/QuicksandRegular.ttf
+          weight: 400
+        - asset: assets/fonts/QuicksandBold.ttf
+          weight: 700
+    - family: Poppins
+      fonts: 
+        - asset: assets/fonts/PoppinsRegular.ttf
+          weight: 400
