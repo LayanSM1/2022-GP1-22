@@ -5,7 +5,6 @@
 
 
 Technology:
-
 Android Studio
 Flutter
 Dart
@@ -15,24 +14,23 @@ Figma
 
 
 Lunch instructions:
-
 • Downloading the APK from Github:
 
-Open the Settings app on your Android device.
-In the Settings menu, tap Apps.
-Tap Special app access (or Advanced > Special app access).
-Tap Install unknown apps.
-Select an app to use to install an APK file—your browser and file management apps are the best option here.
-Tap the Allow from this source slider to allow APK files to be installed via that app.
+1-Open the Settings app on your Android device.
+2-In the Settings menu, tap Apps.
+3-Tap Special app access (or Advanced > Special app access).
+4-Tap Install unknown apps.
+5-Select an app to use to install an APK file—your browser and file management apps are the best option here.
+6-Tap the Allow from this source slider to allow APK files to be installed via that app.
+
 ----------------
 • Run on android studio emulator:
-
 1- Clone this repo
 2- Run flutter pub get
 3- Run flutter run
-----------------
--Chose the device:
 
+----------------
+•Chose the device:
 1-Go to device manger
 2-Create device
 3-From category select phone, select pixel 5
