@@ -1,4 +1,4 @@
-2022-GP1-22
+2023-GP2-22
 <div> <h1 align="center">STEGO</h1> <strong> Introduction </strong> <p> Stego is an image steganography application: STEGO addresses the security issue associated with data transmission across Internet networks. Enable you use the camera on your phone to snap a picture or select one from your library of previously taken pictures, and then you can add a secret message to it.The message will be encrypt by using shared secret key. The hidden message is then sent embedded in the image after that. The hidden message in the image can only be seen by the intended recipient who also possesses a shared secret key. The existence of a secret message is unknown to other users. 
 
 </p> </div>
