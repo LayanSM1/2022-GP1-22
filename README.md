@@ -24,13 +24,17 @@ Lunch instructions:
 6-Tap the Allow from this source slider to allow APK files to be installed via that app.
 
 ----------------
+
 • Run on android studio emulator:
+
 1- Clone this repo
 2- Run flutter pub get
 3- Run flutter run
 
 ----------------
+
 •Chose the device:
+
 1-Go to device manger
 2-Create device
 3-From category select phone, select pixel 5
@@ -38,6 +42,7 @@ Lunch instructions:
 5- From release name select R to download.
 6-After finish downloading click next.
 7- Click finish.
+
 ----------------
 
 github link:
